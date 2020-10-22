@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BroadWay Cafe", "BroadWay Cafe.csproj", "{1457AC25-B182-40FD-ACC9-562615BF817E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BroadWaycafe", "..\New folder\BroadWaycafe\BroadWaycafe.csproj", "{3B75C89A-9060-4E5E-9D3C-FBDD266208A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1457AC25-B182-40FD-ACC9-562615BF817E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1457AC25-B182-40FD-ACC9-562615BF817E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1457AC25-B182-40FD-ACC9-562615BF817E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1457AC25-B182-40FD-ACC9-562615BF817E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B75C89A-9060-4E5E-9D3C-FBDD266208A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B75C89A-9060-4E5E-9D3C-FBDD266208A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B75C89A-9060-4E5E-9D3C-FBDD266208A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B75C89A-9060-4E5E-9D3C-FBDD266208A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {077B8E2E-F2F9-4754-B046-29B0EF464433}
+	EndGlobalSection
+EndGlobal
