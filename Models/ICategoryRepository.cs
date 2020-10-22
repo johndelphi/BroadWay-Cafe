@@ -7,6 +7,6 @@ namespace BroadWay_Cafe.Models
 {
     public interface ICategoryRepository
     {
-        IEnumerable<Category> categories { get; }
+        IEnumerable<Category> Allcategories { get; }
     }
 }

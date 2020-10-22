@@ -8,6 +8,7 @@ namespace BroadWay_Cafe.Models
     public class Pie
     {
         public int pieId { get; set; }
+        public int PieId { get; internal set; }
         public string Name { get; set; }
         public string shortDescription { get; set; }
         public string LongDescription { get; set; }
