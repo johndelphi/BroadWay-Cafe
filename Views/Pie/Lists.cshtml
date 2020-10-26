@@ -1,0 +1,21 @@
+﻿@model BroadWay_Cafe.ViewModels.PieListViewModel
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width =device-width",initial-scale-="1" >
+    <title>BroadWay Cafe</title>
+</head>
+<body>
+    <h1> @Model.currentCategory</h1>
+    @foreach (var Pie in Model.Pies)
+    {   <div>
+    <h2>@Pie.Name</h2>
+    <h3>@Pie.Price.ToString("c")</h3>
+    <h4> @Pie.Category.CategoryName</h4>
+    </div>
+
+    }
+</body>
+</html>

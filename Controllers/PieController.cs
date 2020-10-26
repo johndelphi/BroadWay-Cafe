@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BroadWay_Cafe.Models;
+using BroadWay_Cafe.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BroadWay_Cafe.Controllers
@@ -15,11 +16,14 @@ namespace BroadWay_Cafe.Controllers
         {
             _pieRepository = pieRepository;
             _categoryRepository = categoryRepository;
-
+            
         }
-        public ViewResult list()
+        public ViewResult List()
         {
-            return View(_pieRepository.Allpies);
+            PieListViewModel piesListViewModel = new PieListViewModel();
+            piesListViewModel.Pies = _pieRepository.Allpies;
+            piesListViewModel.currentCategory = "cheese cakes";
+            return View(piesListViewModel);
         }
     }
 }
