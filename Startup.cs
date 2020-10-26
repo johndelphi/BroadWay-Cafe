@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BroadWay_Cafe.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -17,6 +18,8 @@ namespace BroadWay_Cafe
         public void ConfigureServices(IServiceCollection services)
         {// register services
             services.AddControllersWithViews();
+            services.AddScoped<IPieRepository, MockpieRepository>();
+            services.AddScoped<ICategoryRepository, MockCategoryRepository>();
             
         }
 
