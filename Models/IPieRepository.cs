@@ -8,6 +8,8 @@ namespace BroadWay_Cafe.Models
     public interface IPieRepository
     {
         IEnumerable<Pie> Allpies { get; }
+        IEnumerable<Pie> piesofTheWeek { get; }
+
         Pie GetPieById(int pieId);
     }
 }
